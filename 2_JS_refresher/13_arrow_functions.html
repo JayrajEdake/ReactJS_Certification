@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Just JavaScript</title>
+  <link rel="stylesheet" href="styles.css">
+  <script>
+    
+const printMyName = name =>{
+  console.log("My name is:"+name)
+}
+
+    printMyName("Jayraj")
+
+    const oldArr= [1,2,3];
+    const newArr = [...oldArr,11];
+
+    console.log(newArr)
+
+    const [a,,c] = oldArr;
+    console.log(a,c)
+
+    const person = {
+      name:'Jayraj'
+    }
+
+    const secondPerson = person;
+    const thirdPerson = {
+      ...person
+    };
+
+    person.name ='Rohini';
+
+    console.log("secondPerson:"+JSON.stringify(secondPerson))
+    console.log("thirdPerson:"+JSON.stringify(thirdPerson))
+
+    const numbers = [1,2,3];
+
+    const doubleNumberArray = numbers.map((num) =>{
+     return num * 11;
+    })
+    console.log(numbers);
+    console.log(doubleNumberArray);
+
+    
+  </script>
+</head>
+
+<body>
+ 
+</body>
+
+</html>
