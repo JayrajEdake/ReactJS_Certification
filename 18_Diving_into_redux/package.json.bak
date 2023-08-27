@@ -1,0 +1,16 @@
+{
+  "name": "18_Diving_into_redux",
+  "version": "1.0.0",
+  "description": "",
+  "main": "reddux-demo.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react-redux": "^8.0.7",
+    "redux": "^4.2.1"
+  }
+}
